@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+[data-theme='dark'] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity)); /* bg-gray-900 */
+  color: #e5e7eb; /* text-gray-200 */
+}
+
+[data-theme='dark'] nav {
+  background-color: #064e3b;
+}
